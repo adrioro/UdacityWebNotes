@@ -4,7 +4,7 @@
     -ms-box-sizing: border-box;
     box-sizing: border-box;
     max-width: 1020px;
-    border:red solid 1px;
+    
 }
 
 @-ms-viewport {
@@ -39,9 +39,17 @@ div  {
   
 }
 .col-2 {
-    width: 50%;
+    width: 45%;
     padding: 9px;
-    background-color:#F1EDD6
+    background-color:#F1EDD6;
+    text-align:center;
+      
+}
+.col-1 {
+    width: 10%;
+    padding: 9px;
+    background-color:white;
+    
       
 }
 .col-0{
@@ -63,7 +71,7 @@ img {
    border:3px solid #21365C;
    width: 100%;
    height: auto;
-  -webkit-border-radius:35px;
+  -webkit-border-radius:9px;
   -moz-border-radius:150px;
   text-align:center;
   
